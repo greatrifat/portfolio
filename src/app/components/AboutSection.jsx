@@ -23,8 +23,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>BSCSE at United International University</li>
+        <li>HSC from Dhaka City College</li>
       </ul>
     ),
   },
