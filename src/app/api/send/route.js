@@ -14,7 +14,7 @@ export async function POST(req, res) {
       from: fromEmail,
       to: [toEmail],
       subject: subject,
-      react: (
+      html: (
         <>
           <h1>Subject: {subject}</h1>
           <p>Email: {email}</p>

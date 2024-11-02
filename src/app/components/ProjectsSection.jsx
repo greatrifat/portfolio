@@ -59,6 +59,34 @@ const projectsData = [
     gitUrl: "/",
     previewUrl: "/",
   },
+  {
+    id: 6,
+    title: "Full-stack Roadmap",
+    description: "Project 5 description",
+    image: "/images/projects/6.png",
+    tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl: "/",
+  },
+  {
+    id: 6,
+    title: "Full-stack Roadmap",
+    description: "Project 5 description",
+    image: "/images/projects/6.png",
+    tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl: "/",
+  },
+  {
+    id: 6,
+    title: "Full-stack Roadmap",
+    description: "Project 5 description",
+    image: "/images/projects/6.png",
+    tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl: "/",
+  },
+  
 ];
 
 const ProjectsSection = () => {
@@ -81,7 +109,7 @@ const ProjectsSection = () => {
 
   return (
     <section id="projects">
-      <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
+      <h2 className="text-center text-4xl font-bold text-white mb-8 md:mb-12 ">
         My Projects
       </h2>
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
@@ -101,7 +129,8 @@ const ProjectsSection = () => {
           isSelected={tag === "Mobile"}
         />
       </div>
-      <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
+      <div className=""> 
+      <ul ref={ref} className="grid max-h-[calc(2*theme(height.96))] overflow-x-auto  md:grid-cols-3 gap-8 md:gap-12 ">
         {filteredProjects.map((project, index) => (
           <motion.li
             key={index}
@@ -121,6 +150,8 @@ const ProjectsSection = () => {
           </motion.li>
         ))}
       </ul>
+      </div>
+      <hr className="h-px my-8 bg-gray-600 border-0 dark:bg-gray-700"></hr>
     </section>
   );
 };
