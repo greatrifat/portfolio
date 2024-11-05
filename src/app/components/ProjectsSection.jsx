@@ -7,85 +7,50 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
+    title: "Patient Waiting Time analysis",
+    description: "PowerBI Dashboard project",
     image: "/images/projects/1.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    tag: ["All", "EDA"],
+    gitUrl: "https://github.com/greatrifat/EDA/tree/main/Paitent%20Waiting%20Time%20Power%20BI%20Dashbord",
+    previewUrl: "https://github.com/greatrifat/EDA/tree/main/Paitent%20Waiting%20Time%20Power%20BI%20Dashbord",
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
+    title: "E-Com Website",
+    description: "Next.js page routing",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/greatrifat/ecommerce_nextjs",
+    previewUrl: "https://greatrifatecom.vercel.app/",
   },
   {
     id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
+    title: "Foundation Management System",
+    description: "Alokito Foundation",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/greatrifat/alokitofoundation",
+    previewUrl: "https://alokitofoundation.vercel.app/",
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
+    title: "EDA on Telco Customer Churn",
+    description: "The Telco Customers dataset contains information about customers of a telecom company, including demographics, services used, and churn status. The EDA reveals patterns related to customer churn, helping identify characteristics of loyal customers versus those likely to leave. This analysis can guide customer retention efforts and enhance service strategies.",
     image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/",
+    tag: ["All", "EDA"],
+    gitUrl: "https://github.com/greatrifat/EDA/blob/main/EDA_on_Telco_Customer.ipynb",
+    previewUrl: "https://github.com/greatrifat/EDA/blob/main/EDA_on_Telco_Customer.pdf",
   },
   {
     id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
+    title: "EDA on Bank Loan Defaulters",
+    description: "The Bank Loan Defaulters dataset includes records of loan applications and outcomes for a bank's customers. The analysis identifies customer profiles that are more or less likely to default on loans, covering factors such as income level, employment type, family status, and loan characteristics. These insights assist in risk assessment and can inform the bank's lending strategies.",
     image: "/images/projects/5.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    tag: ["All", "EDA"],
+    gitUrl: "https://github.com/greatrifat/EDA/blob/main/EDA_on_Bank_Loan_Defaulter.ipynb",
+    previewUrl: "https://github.com/greatrifat/EDA/blob/main/EDA_on_Bank_Loan_Defaulter.pdf",
   },
-  {
-    id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
-    image: "/images/projects/6.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
-    image: "/images/projects/6.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
-    image: "/images/projects/6.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
-    image: "/images/projects/6.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
+  
   
 ];
 
@@ -125,8 +90,8 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="EDA"
+          isSelected={tag === "EDA"}
         />
       </div>
       <div className=""> 
