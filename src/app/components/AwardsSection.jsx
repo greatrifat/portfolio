@@ -59,6 +59,24 @@ const projectsData = [
     gitUrl: "/",
     previewUrl: "/",
   },
+  {
+    id: 7,
+    title: "Data Analysis with Python",
+    description: "Data Analysis with Python",
+    image: "/images/cirtificates/da.png",
+    tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl: "/",
+  },
+  {
+    id: 8,
+    title: "Software Quality for Developers",
+    description: "Software Quality for Developers",
+    image: "/images/cirtificates/sqa.png",
+    tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl: "/",
+  },
 ];
 
 const AwardsSection = () => {

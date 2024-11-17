@@ -21,7 +21,7 @@ const projectsData = [
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/greatrifat/ecommerce_nextjs",
-    previewUrl: "https://greatrifatecom.vercel.app/",
+    previewUrl: "https://greatrifatecom.vercel.app",
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const projectsData = [
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/greatrifat/alokitofoundation",
-    previewUrl: "https://alokitofoundation.vercel.app/",
+    previewUrl: "https://alokitofoundation.vercel.app",
   },
   {
     id: 4,
@@ -49,6 +49,15 @@ const projectsData = [
     tag: ["All", "EDA"],
     gitUrl: "https://github.com/greatrifat/EDA/blob/main/EDA_on_Bank_Loan_Defaulter.ipynb",
     previewUrl: "https://github.com/greatrifat/EDA/blob/main/EDA_on_Bank_Loan_Defaulter.pdf",
+  },
+  {
+    id: 6,
+    title: "Url Shortener",
+    description: "Next.js app routing",
+    image: "/images/projects/6.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/greatrifat/url_shortener",
+    previewUrl: "https://greaturl.vercel.app",
   },
   
   
