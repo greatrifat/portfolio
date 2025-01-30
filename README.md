@@ -14,6 +14,8 @@ The following dependencies are required for this project:
 - TypeScript
 - Resend
 
-## ScreenShots
+## About Section
+![alt text](https://github.com/greatrifat/portfolio/blob/main/public/images/readme.png)
 
-![alt text](https://github.com/greatrifat/portfolio/blob/main/public/images/hero-image.png)
+## Project Section
+![alt text](https://github.com/greatrifat/portfolio/blob/main/public/images/readme1.png)
