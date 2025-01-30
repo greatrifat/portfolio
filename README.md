@@ -14,4 +14,6 @@ The following dependencies are required for this project:
 - TypeScript
 - Resend
 
+## ScreenShots
 
+![alt text](https://github.com/greatrifat/portfolio/blob/main/public/images/hero-image.png)
