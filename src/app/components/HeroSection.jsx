@@ -26,17 +26,17 @@ const HeroSection = () => {
             <br></br>
             <TypeAnimation
               sequence={[
-                "Software Engineering",
+                "Software Quality Assurance",
                 1000,
-                "Web Development",
+                "Automation Testing",
                 1000,
-                "Data Analytics",
+                "Manual Testing",
                 1000,
-                "NextJS Development",
+                "Selenium WebDriver",
                 1000,
-                "Machine Learning",
+                "Performance Testing",
                 1000,
-                "Data Science",
+                "API Testing",
                 1000,
               ]}
               wrapper="span"
@@ -45,8 +45,8 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          I specialize in building data-driven solutions that transform raw data into actionable insights. With expertise in machine learning,
-           data analysis, and statistical modeling, I help businesses make informed decisions and optimize their strategies through data. Let’s solve complex problems with the power of data!.
+          A passionate Software Quality Assurance (SQA) enthusiast with a strong foundation in Computer Science and Engineering.
+          I specialize in ensuring software reliability and performance by leveraging modern testing tools like Selenium, JMeter, and Postman. With hands-on experience in automated and manual testing.
           </p>
           <div>
             <Link

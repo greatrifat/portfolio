@@ -10,7 +10,7 @@ const TAB_DATA = [
     content: (
   <table className="w-full border-gray-200">
     <tbody>
-      <tr className="border-b">
+      {/* <tr className="border-b">
         <td className="p-1 font-semibold">Languages:</td>
         <td className="py-1 ">C, Python, JavaScript</td>
       </tr>
@@ -29,6 +29,30 @@ const TAB_DATA = [
       <tr className="">
         <td className="p-1 font-semibold">Tools & Software:</td>
         <td className="py-1">Power BI, VS Code, Google Colab, Kaggle, Latex</td>
+      </tr> */}
+      <tr className="border-b">
+        <td className="p-1 font-semibold">Testing Tols:</td>
+        <td className="py-1 ">Selenium, Postman, JMeter</td>
+      </tr>
+      <tr className="border-b">
+        <td className="p-1 font-semibold">Programming Languages:</td>
+        <td className="py-1">Java, JavaScript, Python, C</td>
+      </tr>
+      <tr className="border-b">
+        <td className="p-1 font-semibold">Methodologies:</td>
+        <td className="py-1">White Box & Black Box Testing, Agile, V-Model</td>
+      </tr>
+      <tr className="border-b">
+        <td className="p-1 font-semibold">Frameworks:</td>
+        <td className="py-1">React, Next.js, TailwindCSS</td>
+      </tr>
+      <tr className="border-b">
+        <td className="p-1 font-semibold">Tools & Software:</td>
+        <td className="py-1">Jira, Git, VS Code, Eclipse, Power BI, Kaggle, Latex</td>
+      </tr>
+      <tr className="border-b">
+        <td className="p-1 font-semibold">Databases:</td>
+        <td className="py-1">MongoDB, MySQL</td>
       </tr>
     </tbody>
   </table>
@@ -60,8 +84,9 @@ const TAB_DATA = [
       <>
       
       <ul>
-          <li className="text-base font-medium text-gray-400">Advanced SQL by Kaggle: [Link]</li>
-          <li className="text-base font-medium text-gray-400">SQL (Basic) by HackerRank: [Link]</li>
+          <li className="text-base font-medium text-gray-400">Software Testing for Developers (Coursera): [Link]</li>
+          <li className="text-base font-medium text-gray-400">Advanced SQL (Kaggle) [Link]</li>
+          <li className="text-base font-medium text-gray-400">Data Analysis with Python (Coursera): [Link]</li>
           <li className="text-base font-medium text-gray-400">Learn Statistics with Python Course by by Codecademy: [Link]</li>
           <li className="text-base font-medium text-gray-400">Learn Data Analysis with Pandas Course by Codecademy: [Link]</li>
           <li className="text-base font-medium text-gray-400">Python (Basic) HackerRank: [Link]</li>
@@ -91,10 +116,9 @@ const AboutSection = () => {
       
         <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
         <p className="text-base lg:text-lg">
-          I am a data analyst and software engineer with a passion for creating data-driven solutions and efficient software applications. 
-          With a strong foundation in data analysis and software engineering principles, I leverage my skills to extract insights from data and build impactful software. 
-          I have experience  working with JavaScript, React, Next.js, MySQL, Mongodb, git and others. I am committed to continuous learning and collaboration, looking to expand my knowledge and skill set.
-
+        Throughout my academic journey at United International University, I cultivated a deep understanding of testing methodologies, including White Box and Black Box testing, while honing my coding skills in Java, Python, and JavaScript.
+        I’ve also collaborated on diverse projects, such as test automation for platforms like Orange HRM and OpenCart, where I utilized tools like Selenium WebDriver and frameworks like TestNG to optimize testing processes.
+        Beyond technical skills, I thrive in collaborative and dynamic environments, where I can analyze complex challenges and provide innovative solutions. My commitment to learning and problem-solving has been recognized through achievements like winning multiple project shows and securing academic scholarships.
         </p>
         <div className="mt-8">
           <h5 className="inline-block text-2xl font-bold mt-4  border-b-4 border-blue-300  text-transparent bg-clip-text bg-gradient-to-r from-secondary-400 to-primary-600">Skills</h5>
