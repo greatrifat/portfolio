@@ -67,8 +67,9 @@ const projectsData = [
     previewUrl: "https://github.com/greatrifat/EDA/blob/main/EDA_on_Bank_Loan_Defaulter.pdf",
   },
   {
-    id: 6,
+    id: 7,
     title: "Url Shortener",
+    tools: "NextJS, TailwindCSS, MongoDB",
     description: "Next.js app routing",
     image: "/images/projects/6.png",
     tag: ["All", "Web"],
