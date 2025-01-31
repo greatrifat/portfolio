@@ -31,7 +31,7 @@ const TAB_DATA = [
         <td className="py-1">Power BI, VS Code, Google Colab, Kaggle, Latex</td>
       </tr> */}
       <tr className="border-b">
-        <td className="p-1 font-semibold">Testing Tols:</td>
+        <td className="p-1 font-semibold">Testing Tools:</td>
         <td className="py-1 ">Selenium, Postman, JMeter</td>
       </tr>
       <tr className="border-b">

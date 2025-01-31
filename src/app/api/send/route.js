@@ -12,15 +12,13 @@ export async function POST(req, res) {
   try {
     const data = await resend.emails.send({
       from: fromEmail,
-      to: [toEmail],
+      to: toEmail,
       subject: subject,
-      html: (
-        <>
-          <h1>Subject: {subject}</h1>
-          <p>Email: {email}</p>
-          <p>Text: {message}</p>
-        </>
-      ),
+      html:`
+        <h1>Subject: ${subject}</h1>
+        <p>From Email: ${email}</p>
+        <p>Message: ${message}</p> 
+        `,
     });
     return NextResponse.json(data);
   } catch (error) {

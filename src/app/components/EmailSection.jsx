@@ -68,7 +68,7 @@ const EmailSection = () => {
           </Link>
         </div>
         
-        <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="greatrifat" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://bd.linkedin.com/in/greatrifat?trk=profile-badge">Md Robayet Ahasan Rifat</a></div>
+        <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="greatrifat" data-version="v1"> @ <a className="badge-base__link LI-simple-link" href="https://bd.linkedin.com/in/greatrifat?trk=profile-badge">Robayet Ahasan</a></div>
     
       </div>
       <div>
