@@ -8,22 +8,22 @@ import Link from "next/link";
 const HeroSection = () => {
   return (
     <section className="lg:py-16">
-      <div className="grid grid-cols-1 sm:grid-cols-12">
+      <div className="grid grid-cols-1 sm:grid-cols-12 gap-8">
+        {/* Left Text */}
         <motion.div
-          initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }}
+          initial={{ opacity: 0, x: -50 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6 }}
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
-          <h1 className="text-white mb-2 text-2xl sm:text-3xl lg:text-6xl lg:leading-normal font-extrabold">
-          <div className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
+          <h1 className="text-white mb-4 text-2xl sm:text-3xl lg:text-6xl lg:leading-normal font-extrabold">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
               Hello, I&apos;m{" "}
-            </div>
-            
-            <div className="inline-block text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
+            </span>
+            <span className="inline-block text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600 break-words">
               Robayet Ahasan
-            </div>
-            <br></br>
+            </span>
+            <br />
             <TypeAnimation
               sequence={[
                 "Software Quality Assurance",
@@ -44,10 +44,12 @@ const HeroSection = () => {
               repeat={Infinity}
             />
           </h1>
+
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          A passionate Software Quality Assurance (SQA) enthusiast with a strong foundation in Computer Science and Engineering.
-          I specialize in ensuring software reliability and performance by leveraging modern testing tools like Selenium, JMeter, and Postman. With hands-on experience in automated and manual testing.
+            Software QA Engineer with 1+ year of hands-on experience in manual and automated testing. Skilled in Postman, Selenium, JMeter, Burp Suite, and Apidog, with a strong CSE background and a focus on software quality, reliability, and performance.
           </p>
+
+          {/* Buttons (kept unchanged) */}
           <div>
             <Link
               href="/#contact"
@@ -65,19 +67,20 @@ const HeroSection = () => {
             </Link>
           </div>
         </motion.div>
+
+        {/* Right Image */}
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
+          <div className="relative w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] rounded-full bg-[#181818] overflow-hidden mx-auto sm:mx-0">
             <Image
               src="/images/hero-image.png"
               alt="hero image"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              width={300}
-              height={300}
+              fill
+              className="object-cover"
             />
           </div>
         </motion.div>

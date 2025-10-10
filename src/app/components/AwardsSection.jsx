@@ -7,64 +7,65 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "Advance OOP 3rd Runner Up",
-    description: "Advance OOP 3rd Runner Up",
-    image: "/images/cirtificates/adoop.png",
-    tag: ["All", "University"],
+    title: "Software Testing for Developers by Coursera",
+    description: "Software Testing for Developers by Coursera",
+    image: "/images/cirtificates/sqa.png",
+    tag: ["All", "Certificate"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 2,
-    title: "Microprocessors & Micro-Controllers Champion",
-    description: "Microprocessors & Micro-Controllers Champion",
-    image: "/images/cirtificates/micro.png",
-    tag: ["All", "Web"],
+    title: "Data Analysis with Python",
+    description: "Data Analysis with Python",
+    image: "/images/cirtificates/da.png",
+    tag: ["All", "Certificate"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 3,
-    title: "Final Year Design Project 2nd Runner Up",
-    description: "Final Year Design Project 2nd Runner Up",
-    image: "/images/cirtificates/fydp.png",
-    tag: ["All", "Web"],
+    title: "Advanced SQL by kaggle",
+    description: "Advanced SQL by kaggle",
+    image: "/images/cirtificates/asql.png",
+    tag: ["All", "Certificate"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 4,
-    title: "Software Testing for Developers by Coursera",
-    description: "Software Testing for Developers by Coursera",
-    image: "/images/cirtificates/sqa.png",
-    tag: ["All", "sqa"],
+    title: "Advance OOP 3rd Runner Up",
+    description: "Advance OOP 3rd Runner Up",
+    image: "/images/cirtificates/adoop.png",
+    tag: ["All", "Award"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 5,
-    title: "Data Analysis with Python",
-    description: "Data Analysis with Python",
-    image: "/images/cirtificates/da.png",
-    tag: ["All", "Web"],
+    title: "Microprocessors & Micro-Controllers Champion",
+    description: "Microprocessors & Micro-Controllers Champion",
+    image: "/images/cirtificates/micro.png",
+    tag: ["All", "Award"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 6,
-    title: "Volunteer Work at Project Show",
-    description: "Volunteer Work at Project Show",
-    image: "/images/cirtificates/vt.png",
-    tag: ["All", "Web"],
+    title: "Final Year Design Project 2nd Runner Up",
+    description: "Final Year Design Project 2nd Runner Up",
+    image: "/images/cirtificates/fydp.png",
+    tag: ["All", "Award"],
     gitUrl: "/",
     previewUrl: "/",
   },
+  
   {
     id: 7,
-    title: "Advanced SQL by kaggle",
-    description: "Advanced SQL by kaggle",
-    image: "/images/cirtificates/asql.png",
-    tag: ["All", "Mobile"],
+    title: "Volunteer Work at Project Show",
+    description: "Volunteer Work at Project Show",
+    image: "/images/cirtificates/vt.png",
+    tag: ["All", "Award"],
     gitUrl: "/",
     previewUrl: "/",
   },
@@ -73,7 +74,7 @@ const projectsData = [
     title: "SQL(Basic) by HackerRank",
     description: "SQL(Basic) by HackerRank",
     image: "/images/cirtificates/bsql.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Certificate"],
     gitUrl: "/",
     previewUrl: "/",
   },
@@ -82,7 +83,7 @@ const projectsData = [
     title: "Intro to SQL by kaggle",
     description: "Intro to SQL by kaggle",
     image: "/images/cirtificates/isql.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Certificate"],
     gitUrl: "/",
     previewUrl: "/",
   },
@@ -120,13 +121,13 @@ const AwardsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Web"
-          isSelected={tag === "Web"}
+          name="Certificate"
+          isSelected={tag === "Certificate"}
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="Award"
+          isSelected={tag === "Award"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
